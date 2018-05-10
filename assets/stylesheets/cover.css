@@ -1,0 +1,6 @@
+/*Style rules for cover*/
+#cover {
+    background: url("../images/hexon_bg.png");
+    background-size: cover;
+    height: 100vh;
+}
