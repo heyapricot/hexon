@@ -45,7 +45,6 @@ footer {
 footer p, footer h5, footer h6, footer a, footer a:hover {
   color: lightgray;
   display: inline;
-  margin-right: 1rem;
   margin-bottom: 0;
   font-size: 90%;
 }
@@ -65,5 +64,6 @@ footer h5 {
 #subtext {
   color: gray;
   font-size: 75%;
+  margin-left: 1rem;
 }
 /* END OF FOOTER */
