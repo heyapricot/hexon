@@ -1,3 +1,7 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
 /* START OF COVER */
 
 
@@ -24,8 +28,26 @@
   height: 100vh;
 }
 
+#base {
+  color: dimgray;
+  font-size: 60%;
+  letter-spacing: 0.4rem;
+  margin-bottom: 8px;
+}
 
+#touch {
+  color: dimgray;
+  font-size: 70%;
+  margin-bottom: 2px;
+}
 
+#hire button {
+  border-radius: 2px;
+}
+
+#less_strong {
+  font-size: 75%;
+}
 
 /* END OF HIRE */
 
@@ -71,3 +93,7 @@ footer h5 {
   margin-left: 1rem;
 }
 /* END OF FOOTER */
+
+.row {
+  margin: 0;
+}
