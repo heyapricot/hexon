@@ -18,7 +18,11 @@
 /* END OF TILES */
 
 /* START OF HIRE */
-
+#hire {
+  background-image: url(../images/hire5.jpg);
+  background-size: cover;
+  height: 100vh;
+}
 
 
 
