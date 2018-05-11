@@ -34,9 +34,36 @@
 /* END OF CONTACT */
 
 /* START OF FOOTER */
+#logo {
+  color: lightgray;
+}
 
+footer {
+  background-color: dimgray;
+}
 
+footer p, footer h5, footer h6, footer a, footer a:hover {
+  color: lightgray;
+  display: inline;
+  margin-bottom: 0;
+  font-size: 90%;
+}
 
+footer h5 {
+  line-height: 2rem;
+}
 
+#footer-links {
+  line-height: 2rem;
+  margin: 0 4px;
+  width: 2rem;
+  background-color: gray;
+  border-radius: 100%;
+}
 
+#subtext {
+  color: gray;
+  font-size: 75%;
+  margin-left: 1rem;
+}
 /* END OF FOOTER */
