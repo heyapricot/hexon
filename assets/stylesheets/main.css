@@ -1,5 +1,5 @@
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: quicksand, montserrat, sans-serif;
 }
 
 /* START OF COVER */
@@ -51,7 +51,7 @@ body {
 }
 
 #hire button {
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 #less_strong {
@@ -62,10 +62,21 @@ body {
 
 /* START OF CONTACT */
 
+#contact {
+  background-color: lightgray;
+}
 
+#submit {
+  border-radius: 100%;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+}
 
-
-
+#pink {
+  color: #e84a8c;
+  font-size: 75%;
+}
 /* END OF CONTACT */
 
 /* START OF FOOTER */
