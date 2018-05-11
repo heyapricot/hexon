@@ -3,4 +3,11 @@
     background: url("../images/hexon_bg.png");
     background-size: cover;
     height: 100vh;
+    font-family: "Montserrat Light";
+    font-weight: 100;
 }
+
+#cover .bottom_text {
+    color: white;
+}
+
