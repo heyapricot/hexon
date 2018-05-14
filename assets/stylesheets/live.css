@@ -1,0 +1,5 @@
+/* Style rules for Slick beauty section*/
+.slick-row {
+    background: url("../images/pink_bg.jpg");
+    background-size: cover;
+}
