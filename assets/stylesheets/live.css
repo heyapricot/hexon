@@ -7,5 +7,9 @@
 .slick-card {
     background: url("../images/hand-cellphone.jpg");
     background-size: cover;
-    padding: 10% 0%;
+}
+
+.btn-group .btn {
+    color: gray;
+    font-weight: 900;
 }
