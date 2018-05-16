@@ -9,6 +9,11 @@
     background-size: cover;
 }
 
+.slick-bar {
+    border-top: solid 4px #fe2377;
+    margin-top: 10%;
+}
+
 .btn-group .btn {
     color: gray;
     font-weight: 900;
