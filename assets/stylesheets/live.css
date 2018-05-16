@@ -1,4 +1,8 @@
 /* Style rules for Slick beauty section*/
+.card-body {
+    font-family: "Montserrat", sans-serif;
+}
+
 .slick-row {
     background: url("../images/pink_bg.jpg");
     background-size: contain;
@@ -16,6 +20,7 @@
 
 .slick-btn {
     text-transform: uppercase;
+    font-family: sans-serif;
     color: #fd3483;
     font-weight: 900;
     font-size: 0.9rem;
@@ -25,4 +30,10 @@
 .btn-group .btn {
     color: gray;
     font-weight: 900;
+}
+
+.card-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
 }
