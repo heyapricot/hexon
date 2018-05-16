@@ -1,7 +1,3 @@
-body {
-  font-family: quicksand, montserrat, sans-serif;
-}
-
 /* START OF COVER */
 #cover {
   background: url("../images/hexon_bg.png");
@@ -32,6 +28,7 @@ body {
 
 /* START OF HIRE */
 #hire {
+  font-family: montserrat, sans-serif;
   background-image: url(../images/hire5.jpg);
   background-size: cover;
   height: 100vh;
@@ -62,6 +59,7 @@ body {
 
 /* START OF CONTACT */
 #contact {
+  font-family: quicksand, montserrat, sans-serif;
   background: -moz-radial-gradient(lightgray 7%, transparent 7%),
               -moz-radial-gradient(lightgray 7%, transparent 7%),
               #d2d2d259;
@@ -105,11 +103,8 @@ body {
 /* END OF CONTACT */
 
 /* START OF FOOTER */
-#logo {
-  color: lightgray;
-}
-
 footer {
+  font-family: montserrat, sans-serif;
   background-color: dimgray;
 }
 
@@ -122,6 +117,10 @@ footer p, footer h5, footer h6, footer a, footer a:hover {
 
 footer h5 {
   line-height: 2rem;
+}
+
+#logo {
+  color: lightgray;
 }
 
 #footer-links {
