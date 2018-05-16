@@ -61,9 +61,32 @@ body {
 /* END OF HIRE */
 
 /* START OF CONTACT */
-
 #contact {
-  background-color: lightgray;
+  background: -moz-radial-gradient(lightgray 7%, transparent 7%),
+              -moz-radial-gradient(lightgray 7%, transparent 7%),
+              #d2d2d259;
+  background: -webkit-radial-gradient(lightgray 7%, transparent 7%),
+              -webkit-radial-gradient(lightgray 7%, transparent 7%),
+              #d2d2d259;
+  background-position: 0 0 5px 5px;
+  background-size: -webkit-background-size:30px 30px;
+  background-size:  -moz-background-size:30px 30px;
+  background-size: 30px 30px;
+  background-color: #d2d2d259;
+}
+
+#updates {
+  color: rgba(0,0,0,0.75);
+  font-weight: 300;
+}
+
+#contact input {
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: darkgray;
+  background: none;
 }
 
 #submit {
@@ -71,7 +94,9 @@ body {
   background-color: white;
   height: 40px;
   width: 40px;
+  box-shadow: 0px 0px 20px 0px grey;
 }
+
 
 #pink {
   color: #e84a8c;
