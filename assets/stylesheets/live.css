@@ -14,6 +14,14 @@
     margin-top: 10%;
 }
 
+.slick-btn {
+    text-transform: uppercase;
+    color: #fd3483;
+    font-weight: 900;
+    font-size: 0.9rem;
+    padding-left: 0;
+}
+
 .btn-group .btn {
     color: gray;
     font-weight: 900;
