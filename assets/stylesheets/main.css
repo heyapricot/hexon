@@ -1,4 +1,11 @@
 /* START OF COVER */
+#nav a, #nav a:hover {
+  color: lightgray;
+  display: inline;
+  margin-bottom: 0;
+  font-size: 90%;
+}
+
 #cover {
   background: url("../images/hexon_bg.png");
   background-size: cover;
