@@ -22,7 +22,54 @@
 
 /* START OF APP */
 
+/* Style rules for Slick beauty section*/
+#live {
+  font-family: "Montserrat", sans-serif;
+}
 
+.slick-row {
+  background: url("../images/pink_bg.jpg");
+  background-size: contain;
+}
+
+.slick-card {
+  background: url("../images/hand-cellphone.jpg");
+  background-size: cover;
+}
+
+.slick-bar {
+  border-top: solid 4px #fe2377;
+  margin-top: 10%;
+}
+
+.slick-btn {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fd3483;
+  font-weight: 900;
+  font-size: 0.9rem;
+  padding-left: 0;
+}
+
+.btn-group .btn {
+  color: gray;
+  font-weight: 900;
+}
+
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+.pink_number {
+  font-family: "Montserrat", sans-serif;
+  color: #fd3483;
+  font-size: 4rem;
+  display: inline-block;
+  vertical-align: top;
+
+}
 
 /* END OF APP */
 
@@ -116,19 +163,19 @@
 /* END OF CONTACT */
 
 /* START OF FOOTER */
-footer {
+.footer {
   font-family: montserrat, sans-serif;
   background-color: dimgray;
 }
 
-footer p, footer h5, footer h6, footer a, footer a:hover {
+.footer p, .footer h5, .footer h6, .footer a, .footer a:hover {
   color: lightgray;
   display: inline;
   margin-bottom: 0;
   font-size: 90%;
 }
 
-footer h5 {
+.footer h5 {
   line-height: 2rem;
 }
 
