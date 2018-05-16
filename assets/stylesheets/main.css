@@ -156,19 +156,19 @@
 /* END OF CONTACT */
 
 /* START OF FOOTER */
-footer {
+.footer {
   font-family: montserrat, sans-serif;
   background-color: dimgray;
 }
 
-footer p, footer h5, footer h6, footer a, footer a:hover {
+.footer p, .footer h5, .footer h6, .footer a, .footer a:hover {
   color: lightgray;
   display: inline;
   margin-bottom: 0;
   font-size: 90%;
 }
 
-footer h5 {
+.footer h5 {
   line-height: 2rem;
 }
 
