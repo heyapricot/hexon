@@ -1,5 +1,5 @@
 /* Style rules for Slick beauty section*/
-.card-body {
+#live {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -36,4 +36,13 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 4rem;
+}
+
+.pink_number {
+    font-family: "Montserrat", sans-serif;
+    color: #fd3483;
+    font-size: 4rem;
+    display: inline-block;
+    vertical-align: top;
+
 }
