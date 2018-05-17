@@ -1,9 +1,15 @@
 /* START OF COVER */
-#nav a, #nav a:hover {
-  color: lightgray;
+#nav h5, #nav a, #nav a:hover {
+  font-family: quicksand, montserrat, sans-serif;
+  color: gray;
   display: inline;
   margin-bottom: 0;
-  font-size: 90%;
+  font-size: 0.8rem;
+}
+
+#nav h5 {
+  line-height: 2rem;
+  font-size: 1.1rem;
 }
 
 #cover {
