@@ -3,7 +3,7 @@
 
 
 /* START OF COVER */
-#nav h5, #nav a, #nav a:hover {
+nav h5, nav a, nav a:hover {
   font-family: quicksand, montserrat, sans-serif;
   color: gray;
   display: inline;
@@ -11,7 +11,7 @@
   font-size: 0.8rem;
 }
 
-#nav h5 {
+nav h5 {
   line-height: 2rem;
   font-size: 1.1rem;
 }
@@ -26,6 +26,10 @@
 
 #cover .bottom_text {
   color: white;
+}
+
+#small {
+  font-size: 80%;
 }
 
 /* END OF COVER */
@@ -103,12 +107,17 @@
   font-size: 60%;
   letter-spacing: 0.4rem;
   margin-bottom: 8px;
+  font-weight: 900;
 }
 
 #touch {
   color: dimgray;
   font-size: 70%;
   margin-bottom: 2px;
+}
+
+#button {
+  padding: 8px 40px;
 }
 
 #hire button {
